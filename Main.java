@@ -21,7 +21,10 @@ public class Main extends Application {
         loader.setLocation(this.getClass().getResource("/sample/sample.fxml"));
         StackPane stackPane = loader.load();
 
+        Controller controller = loader.getController();
+
         Scene scene = new Scene (stackPane);
+
 
         primaryStage.setResizable(false);
         primaryStage.setScene(scene);

@@ -16,6 +16,7 @@ public class Podstawka {
         Podstawka podstawka = new Podstawka(height, width);
         String direction = new String("Up");
 
+
         podstawka.basicBoard(podstawka.board);
         podstawka.showBoard(podstawka.board);
         //podstawka.apple(podstawka.board);
